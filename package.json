@@ -1,0 +1,12 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch:sass": "sass --watch scss/main.scss public/styles/style.css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

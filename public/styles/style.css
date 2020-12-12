@@ -1,0 +1,135 @@
+:root {
+  --color-blue-dark: #292a73;
+  --color-blue-dark-1: #38399b;
+  --color-orange: #f7a400;
+  --color-white: #ffff;
+  --color-black: #000000;
+}
+
+input,
+textarea,
+select,
+button {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  border: none;
+}
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  background-color: var(--color-bg-grey);
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 5px;
+  color: white;
+  padding: 1rem 2rem;
+  background-color: var(--color-orange);
+  transition: all 0.3s;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.heading-huge {
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+
+.section__presentation {
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+  text-align: center;
+  color: var(--color-blue-dark);
+}
+
+.nav__wrapper {
+  padding-top: 1rem;
+}
+
+.nav {
+  max-width: 90rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+.nav__left {
+  margin-right: auto;
+}
+.nav__title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--color-blue-dark);
+}
+.nav__links {
+  display: flex;
+  align-items: center;
+}
+.nav__li {
+  list-style: none;
+}
+.nav__li:not(:last-child) {
+  margin-right: 1rem;
+}
+.nav__link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-blue-dark);
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-bottom: 3px solid transparent;
+  transition: all 0.5s;
+}
+.nav__link:hover {
+  border-color: var(--color-orange);
+}
+.nav__link--btn {
+  color: var(--color-white);
+  background-color: var(--color-blue-dark);
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+.nav__link--btn:hover {
+  background-color: var(--color-white);
+  color: var(--color-blue-dark);
+  border-color: var(--color-orange);
+}
+
+/*# sourceMappingURL=style.css.map */
